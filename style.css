@@ -1,0 +1,55 @@
+/* Reseta o estilo padrão dos elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #4a004b; /* Roxo escuro */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #e74c3c; /* Vermelho */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    color: #e74c3c; /* Vermelho */
+}
+
+main p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #e74c3c; /* Vermelho */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+}
